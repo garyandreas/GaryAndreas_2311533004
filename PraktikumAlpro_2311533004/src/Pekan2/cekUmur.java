@@ -11,7 +11,7 @@ public class cekUmur {
 	umur = a.nextInt();
 	a.close();
 		
-		if(umur > 17) {
+		if(umur >= 17) {
 			System.out.println("Anda Sudah dewasa");
 			
 		} else {
