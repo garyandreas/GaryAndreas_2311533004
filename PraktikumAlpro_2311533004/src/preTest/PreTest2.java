@@ -9,7 +9,6 @@ public class PreTest2 {
 			boolean keepRunning = true;
 
 			while (keepRunning) {
-				
 				System.out.println("Masukkan panjang blok : ");
 				double a = scanner.nextInt();
 				System.out.println("Masukkan lebar blok : ");
@@ -23,19 +22,19 @@ public class PreTest2 {
 			            
 				if (num % 2 != 0) {
 			        hasil -= 0.5;
-				}  else {;
+				} else {;
 					
 				}
 				System.out.println("Blok yang muat : ");    
 				System.out.println("" +hasil);
 				System.out.println();
-			    }
-			    scanner.close();     
+				
+			}
+			scanner.close();     
 			    
-			    }
+	}
 
-			    }
-	
+}
 
 
 
